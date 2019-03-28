@@ -7,13 +7,17 @@ import android.widget.Button;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
+
+    //CREATE VARIABLES
     TextView txtTouch, txtParty, txtTime;
     Button btnTouch;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        //ASSIGN VAR NAMES TO VIEWS
         txtTouch = findViewById(R.id.txtTouch);
         txtTime = findViewById(R.id.txtTime);
         txtParty = findViewById(R.id.txtParty);
