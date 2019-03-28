@@ -9,24 +9,26 @@ import android.widget.TextView;
 public class MainActivity extends AppCompatActivity {
 
     //CREATE VARIABLES
-    TextView txtTouch, txtParty, txtTime;
-    Button btnTouch;
+    //TextView txtTouch, txtParty, txtTime;
+    //Button btnTouch;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-        //ASSIGN VAR NAMES TO VIEWS
+/*
+        ASSIGN VAR NAMES TO VIEWS
         txtTouch = findViewById(R.id.txtTouch);
         txtTime = findViewById(R.id.txtTime);
         txtParty = findViewById(R.id.txtParty);
         btnTouch = findViewById(R.id.btnTouchTrigger);
+*/
     }
-
+/*
     public void party(View v){
         txtTime.setText("TIME!");
         txtParty.setText("PIZZA!");
         txtTouch.setText("");
     }
+*/
 }
