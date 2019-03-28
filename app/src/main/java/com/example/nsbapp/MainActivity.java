@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void party(View v){
         txtTime.setText("TIME!");
-        txtParty.setText("PARTY!");
+        txtParty.setText("PIZZA!");
         txtTouch.setText("");
     }
 }
